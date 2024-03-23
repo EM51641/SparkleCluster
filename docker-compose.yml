@@ -15,6 +15,7 @@ services:
     environment:
       ENSURE_NAMENODE_DIR: /tmp/hadoop-root/dfs/name
     command: ["hdfs", "namenode"]
+
   datanode:
     container_name: datanode
     build:
@@ -27,6 +28,7 @@ services:
       ENSURE_DATANODE_DIR: /tmp/hadoop-root/dfs/data
     ports:
       - 9864:9864
+
   datanode_2:
     container_name: datanode_2
     build:
@@ -37,6 +39,7 @@ services:
       - ./config
     ports:
       - 9865:9864
+
   datanode_3:
     container_name: datanode_3
     build:
@@ -47,6 +50,7 @@ services:
       - ./config
     ports:
       - 9866:9864
+
   resourcemanager:
     build:
       context: .
@@ -58,6 +62,7 @@ services:
       - 8042:8042
     env_file:
       - ./config
+
   nodemanager:
     build:
       context: .
@@ -65,6 +70,7 @@ services:
     command: ["yarn", "nodemanager"]
     env_file:
       - ./config
+
   nodemanager_2:
     build:
       context: .
@@ -72,6 +78,7 @@ services:
     command: ["yarn", "nodemanager"]
     env_file:
       - ./config
+
   nodemanager_3:
     build:
       context: .
@@ -79,6 +86,7 @@ services:
     command: ["yarn", "nodemanager"]
     env_file:
       - ./config
+
   historyserver:
     build:
       context: .
