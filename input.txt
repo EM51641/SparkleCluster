@@ -1,0 +1,4 @@
+Hello, this is a sample text file for the MapReduce job.
+It contains several lines of text, each with a varying number of words and characters.
+This is another line in the file.
+And this is yet another line.
