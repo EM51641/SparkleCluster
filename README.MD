@@ -1,6 +1,6 @@
 # SparkleCluster
 
-SparkleCluster is a distributed system that leverages HDFS and YARN to run containerized Spark MapReduce jobs. It provides a robust and scalable solution for processing large datasets.
+SparkleCluster is a template that leverages HDFS and YARN to run containerized Spark or MapReduce jobs. It provides a robust and scalable solution for processing large datasets.
 
 ## Features
 
