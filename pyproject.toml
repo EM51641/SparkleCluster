@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "mapreduce_job"
+version = "0.0.1"
+description = "MapReduce jobs with multiple containers"
+authors = ["Elyes Mahjoubi"]
+
+[tool.poetry.dependencies]
+python = "^3"
+setuptools = "^69.1.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
