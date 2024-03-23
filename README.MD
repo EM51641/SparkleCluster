@@ -44,7 +44,7 @@ These instructions will get you a copy of the project up and running on your loc
    cd /opt/hadoop
    ```
 
-3. Run the `run_map_reduce.sh` script to start a MapReduce job:
+3. Run the `run_map_reduce.sh` or `run_spark.sh` script to start the MapReduce job:
 
    ```bash
    ./run_map_reduce.sh
