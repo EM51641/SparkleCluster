@@ -27,7 +27,7 @@ These instructions will get you a copy of the project up and running on your loc
 3. Build and start the Docker containers:
 
    ```bash
-   docker-compose up -d
+   docker compose up -d
    ```
 
 ### Running a MapReduce Job
